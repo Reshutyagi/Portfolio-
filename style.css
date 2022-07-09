@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Fascinate&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidevar{
+    position: absolute;
+    background-color: rgb(223, 219, 219);
+    font-family: 'Jost', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidevar nav{
+    padding: 45px;
+}
+.sidevar nav li{
+    list-style: none;
+    font-size: 33px;
+    padding: 33px 0;
+}
+.sidevar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(141, 7, 74); */
+    width: 80vw;
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divInfo{
+    font-size: 16px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 23px;
+    font-family: 'Jost', sans-serif;
+}
+.buttons{
+    margin-top: 2.2em;
+}
+.btn{
+      padding: 9px 14px;
+      border-radius: 22px;
+      color: white;
+      background-color: dodgerblue;
+      font-weight: bold;
+      font-size: 21px;
+      margin: 0 3px;
+      cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    height: 58vh;  
+}
+
+.contactForm {
+    padding: 0 34px;
+    font-family: 'Jost', sans-serif;
+    margin: 0 84px;
+
+}
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+      /* width: 16vw; */
+      border-radius: 5px;
+      margin: 6px 0 0;
+      padding: 4px;
+}
+.contactForm form{
+   margin: 0 40px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0 0 0;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Jost', sans-serif;
+}
+.blogContainer{
+    margin: 88px;
+}
+h1{
+    font-family: 'Jost', sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Jost', sans-serif;
+    margin: 12px;
+}
+.intro{
+    margin:  88px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skillsContainer{
+    padding: 12px;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+   width: 125px;
+   background-color: aqua;
+}
+.t5{
+    width: 75;
+    background-color: yellow;
+}
+.sidevarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 155px;
+    margin-top: 10px;
+}
+@media (max-width:1615px) {
+    /* *{
+        background-color: rgb(233, 173, 173);
+    } */
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactForm{
+        margin: 50px 8px;
+    }
+}
